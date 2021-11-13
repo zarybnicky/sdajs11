@@ -8,11 +8,44 @@
     linear-gradient(to bottom, #08b4e4, #0b74b2 42%, #0e418a 100%),
     linear-gradient(to bottom, #e4e4e4, #e4e4e4);
 }
-
 img.Img {
   width: 600px;
   height: 600px;
   flex-grow: 0;
   margin: 522px 69px 125px 135px;
   object-fit: contain;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 30px;
+  background-color: #0b74b2;
+}
+
+.service-card {
+  width: 270px;
+  height: 270px;
+  padding: 60px 84px 61px 85px;
+  border-radius: 8px;
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.06);
+  border: solid 1px #f1f1f1;
+  background-color: #fff;
+}
+.service-card-icon {
+  width: 83px;
+  height: 80px;
+  margin: 0 9px 32px;
+  object-fit: contain;
+}
+.service-card-label {
+  width: 101px;
+  height: 37px;
+  margin: 32px 0 0;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #0f1c49;
 }
